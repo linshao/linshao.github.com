@@ -1,66 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Linshao.github.com by linshao</title>
-  </head>
-
-  <body>
-
-  <header>
-      <div class="inner">
-          <h1>Lishao.github.com</h1>
-
-          <h2>jquery mobile</h2>
-          <a href="https://github.com/lijimi" class="button">
-              <small>Follow me on</small>
-              GitHub</a>
-      </div>
-  </header>
-
-  <div id="content-wrapper">
-      <div class="inner clearfix">
-          <section id="main-content">
-              <h3>
-                  <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>jquery mobile 简介</h3>
-
-              <p>
-                  JQuery Mobile是针对触屏智能手机与平板电脑的网页开发框架。
-              </p>
-              <p>jQuery Mobile首先依赖jquery框架提供的接口处理相关操作<br/>
-                  自身依赖两个主要部分：<br/>
-                  js：jquery.mobile-1.3.2.min.css<br/>
-                  css：jquery.mobile-1.3.2.min.js</p>
-              <p>jquery mobile的基本页面结构</p>
-
-<pre><code><span style="COLOR: #0000ff">&lt;!</span><span style="COLOR: #ff00ff">DOCTYPE html</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br></span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">html</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">head</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">title</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000">jQuery Mobile基本页面结构</span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">title</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">link </span><span style="COLOR: #ff0000">rel</span><span style="COLOR: #0000ff">="stylesheet"</span><span style="COLOR: #ff0000"> href</span><span style="COLOR: #0000ff">="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"</span><span style="COLOR: #ff0000"> </span><span style="COLOR: #0000ff">/&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">script </span><span style="COLOR: #ff0000">type</span><span style="COLOR: #0000ff">="text/javascript"</span><span style="COLOR: #ff0000"> src</span><span style="COLOR: #0000ff">="http://code.jquery.com/jquery-1.7.2.min.js"</span><span style="COLOR: #0000ff">&gt;&lt;/</span><span style="COLOR: #800000">script</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">script </span><span style="COLOR: #ff0000">type</span><span style="COLOR: #0000ff">="text/javascript"</span><span style="COLOR: #ff0000"> src</span><span style="COLOR: #0000ff">="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"</span><span style="COLOR: #0000ff">&gt;&lt;/</span><span style="COLOR: #800000">script</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">head</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">body</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">div </span><span style="COLOR: #ff0000">data-role</span><span style="COLOR: #0000ff">="page"</span><span style="COLOR: #ff0000"> id</span><span style="COLOR: #0000ff">="home"</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">div </span><span style="COLOR: #ff0000">data-role</span><span style="COLOR: #0000ff">="header"</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">h1</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000">Header</span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">h1</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">div</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">div </span><span style="COLOR: #ff0000">data-role</span><span style="COLOR: #0000ff">="content"</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">p</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000">Content goes here</span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">p</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">div</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">div </span><span style="COLOR: #ff0000">data-role</span><span style="COLOR: #0000ff">="footer"</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;</span><span style="COLOR: #800000">h4</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000">Footer</span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">h4</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">div</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">div</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br>&nbsp;&nbsp;&nbsp; </span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">body</span><span style="COLOR: #0000ff">&gt;</span><span style="COLOR: #000000"><br></span><span style="COLOR: #0000ff">&lt;/</span><span style="COLOR: #800000">html</span><span style="COLOR: #0000ff">&gt;</span></code>
-</pre>
-
-
-              <h3>我看过网上比较好的教程</h3>
-              <p>
-                  <a href="http://www.w3cplus.com/blog/tags/331.html?page=1" target="_blank">http://www.w3cplus.com/blog/tags/331.html?page=1</a><br/>
-                  <a href="http://www.wglong.com/main/artical!findByGroup?gId=1" target="_blank">http://www.wglong.com/main/artical!findByGroup?gId=1</a>
-              </p>
-          </section>
-
-          <aside id="sidebar">
-
-
-              <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-          </aside>
-      </div>
-  </div>
-  </body>
-</html>
+---
+layout: default
+title: 林景明的博客-网龙前端工程师
+---
+<ul class="posts">
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
